@@ -13,6 +13,7 @@ const value = "9.999828";
 		headless: true,
 		timeout: 999999,
 		args: [
+			"--no-sandbox",
 			"--proxy-server=socks5://127.0.0.1:9050",
 			// Use proxy for localhost URLs
 			"--proxy-bypass-list=<-loopback>",
@@ -93,6 +94,7 @@ const value = "9.999828";
 					if (item.textContent === "Send") item.click();
 				});
 			});
+			await browser.close();
 		}, 30000);
 	}, 5000);
 })();
