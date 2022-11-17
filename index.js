@@ -6,7 +6,7 @@ const generate_wallet = () => {
 	return newWallet._mnemonic().phrase;
 };
 
-const toAddress = "gitopia13afylm67lml25xau3musz8sdpp08sgkk6s78wg";
+const toAddress = "";
 const value = "9.999828";
 (async () => {
 	const browser = await puppeteer.launch({
