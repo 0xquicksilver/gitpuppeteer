@@ -1,5 +1,5 @@
 {
-	"name": "node",
+	"name": "gitpuppeteer",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -8,10 +8,13 @@
 		"start": "node index.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "layercrypto",
 	"license": "ISC",
 	"dependencies": {
 		"ethers": "^5.7.2",
 		"puppeteer": "^19.2.2"
+	},
+	"repository": {
+		"url": "https://github.com/layercrypto/gitpuppeteer.git"
 	}
 }
