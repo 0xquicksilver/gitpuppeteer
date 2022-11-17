@@ -10,10 +10,10 @@ const toAddress = "gitopia13afylm67lml25xau3musz8sdpp08sgkk6s78wg";
 const value = "9.999828";
 (async () => {
 	const browser = await puppeteer.launch({
-		headless: false,
+		headless: true,
 		timeout: 999999,
 		args: [
-			"--proxy-server=92.205.22.114:38080",
+			"--proxy-server=socks5://127.0.0.1:9050",
 			// Use proxy for localhost URLs
 			"--proxy-bypass-list=<-loopback>",
 		],
