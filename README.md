@@ -1,3 +1,5 @@
 #instalasi
-kamu nanyea instalasinya gimana?\n
+
+kamu nanyea instalasinya gimana?
+
 kamu bertanyea tanyea?
